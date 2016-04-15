@@ -15,3 +15,4 @@ V 0.0.1:
 			
 2016.04.15:	- Added CSS3 transition support (http://ianlunn.github.io/Hover/)
 			- Continue work on topbar
+			- Added html pages for topbar link options

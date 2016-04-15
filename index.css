@@ -30,7 +30,7 @@
 #topbar{
 	background-color:#161220;
 	width:100%;
-	height:120px;
+	height:100px;
 	color:white;
 
 }
@@ -56,7 +56,7 @@
 	float:left;
 	height: 32px;
 	margin-top: 15px;
-	padding: 20px 40px 37px 40px;
+	padding: 20px 40px 17px 40px;
 	list-style:none;
 }
 #topOptions button{
