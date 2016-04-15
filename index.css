@@ -1,0 +1,39 @@
+	body{
+		margin:0;
+		font-family:tahoma,geneva,sans-serif;
+	}
+	
+	#topbar{
+		background-color:#161220;
+		width:100%;
+		height:120px;
+		color:white;
+
+	}
+	#logodiv{
+		padding-top: 25px;
+		float:left;
+
+		color: white;
+		font-size: 3em;
+		font-weight: bold;
+
+	}
+	
+	
+	.fixedwidth{
+		width:1250px;
+		margin:0 auto;
+		padding-left: 13px;
+		
+	}
+
+	#content{
+		width:100%;
+		color:#535353;
+		font-size:0.8em;
+	}
+	
+	.clear{
+		clear:both;
+	}
