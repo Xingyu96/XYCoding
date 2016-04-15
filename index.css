@@ -3,6 +3,17 @@
 		font-family:tahoma,geneva,sans-serif;
 	}
 	
+	.fixedwidth{
+		width:1250px;
+		margin:0 auto;
+		padding-left: 13px;
+
+	}
+
+	.clear{
+		clear:both;
+	}
+
 	#topbar{
 		background-color:#161220;
 		width:100%;
@@ -19,14 +30,26 @@
 		font-weight: bold;
 
 	}
-	
-	
-	.fixedwidth{
-		width:1250px;
-		margin:0 auto;
-		padding-left: 13px;
-		
+
+	#topOptions{
+		float: left;
 	}
+
+	#topOptions ul{
+		margin:0;
+		padding:0;
+	}
+	#topOptions li{
+		float:left;
+		height: 32px;
+		padding: 13px 20px 0px 20px;
+		list-style:none;
+		font-weight:bold;
+		font-size:1em;
+	}
+	
+	
+
 
 	#content{
 		width:100%;
@@ -34,6 +57,3 @@
 		font-size:0.8em;
 	}
 	
-	.clear{
-		clear:both;
-	}
