@@ -1,126 +1,71 @@
-	body{
-		margin:0;
-		font-family:tahoma,geneva,sans-serif;
-	}
+/********************* Colour reference chart****************
+*************************** comment ********* colour ******** 
 
-	button{
-		border: none;
-		outline: none;
+navbar background       
+
+*/
+
+body{
+  font-family:tahoma,geneva,sans-serif;
 }
 
-	li{
-		list-style: none;
-	}
 
-	a{
-		border: none;
-	}
-
-.fixedwidth{
-	width:1250px;
-	margin:0 auto;
-	padding-left: 13px;
-
+.dropdown:hover .dropdown-menu {
+display: block;
 }
 
-.clear{
-	clear:both;
+.navbar-default {
+    background-color: #354458 !important;
+    border-color: #E7E7E7;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #777777;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #E7E7E7;
+    color: #555555;
 }
 
-.banner_image{
-  width: 100%; 
-  height: 500px;
+/*.topbar{
+  background-color: #354458;
+  height: 70px;
+  margin: auto 0;
 }
 
-#topbar{
-	background-color:#161220;
-	width:100%;
-	height:100px;
-	color:white;
-
+.navbar-brand{
+  padding-top: 20px;
+  color:white;
+  font-size: 2.5em;
+  font-weight: bold;
 }
-#logodiv{
-	margin-top: 25px;
-
-	width:400px;
-	float:left;
-	position: relative;
-	color: white;
-	font-size: 3em;
-	font-weight: bold;
+.navbar-brand:hover{
+  color: yellow;
 }
 
-#home{
-  position:absolute; 
-  width:100%;
-  height:100%;
-  top:0;
-  left: 0;
-
-  z-index: 1;
-
-  /* fixes overlap error in IE7/8, 
-     make sure you have an empty gif */
-  background-image: url('empty.gif');
+.navbar-collapse{
+  height: 70px;
+}
+.navbar-nav{
+  padding-top: 20px;
 }
 
-#topOptions{
-	float: left;
+.navbar-nav a{
+  color: #3A9AD9;
 }
 
-#topOptions ul{
-	margin-left: 100px;
+.navbar-nav li{
+  padding-right: 40px;
+}*/
 
-}
-#topOptions li{
-	float:left;
-	height: 32px;
-	margin-top: 15px;
-	padding: 20px 40px 17px 40px;
-	list-style:none;
-}
-#topOptions button{
-	background-color: #161220;
-	font-size: 1.25em;
-	font-weight:bold;
-	color: white;
-}
 
-#topOptions a{
-	text-decoration: none;
-	background-color: #161220;
-	font-size: 1.25em;
-	color: white;
-	padding-bottom: 2px;
-}
 
-#content{
-	width:100%;
-	color:#535353;
-	font-size:0.8em;
-}
 
-#palette{
-}
 
-#palette div{
-	float: left;
-	color: white; 
-	width: 200px; 
-	height: 50px;
-}
 
-#slideshow_banner{
-  margin: 0px auto;
-  width: 100%;
 
-}
 
-#slideshow_banner div{
-  margin: 0 auto;
-  padding: 0;
-  width: 100%;
-}
+
+
 
 
 
@@ -159,9 +104,14 @@
   right: 0;
 }
 
-.dropdown:hover .dropdown-menu {
-display: block;
-}
+
+
+
+
+
+
+
+
 
 /*/* Style The Dropdown Button */
 /*.dropbtn {
